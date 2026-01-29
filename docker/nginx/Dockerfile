@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM nginx:1.29.4-alpine3.23
 EXPOSE 80 443
 
 COPY [ "nginx/root/", "/" ]
